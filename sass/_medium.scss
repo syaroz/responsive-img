@@ -1,0 +1,26 @@
+/* --------------Body--------------- */
+
+
+
+
+
+
+/* ------------- HEADER ------------- */
+header{
+    height: 130px;
+    background-image: url(/img/header1024.jpg);
+    h1{
+        padding-top: 50px;
+    }
+}
+
+
+/* ------------- MAIN ------------- */
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+    figure{
+        width: 50%;
+        float: right;
+    }
+}
