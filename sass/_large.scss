@@ -3,6 +3,7 @@
 
 header{
 	background-image: url(/img/header1600.jpg), url(/img/headerRepeat.jpg);
+	background-repeat: no-repeat, repeat-x;
 }
 
 
@@ -29,3 +30,18 @@ nav {
 
 
 /* ------------- MAIN ------------- */
+main{
+	article{
+		margin: 350px 0 0 $gutter;
+    }
+    
+    article.multicol{
+		column-count: 3;
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-rule: 1px solid $secondaryColor;
+		-webkit-column-rule: 1px solid $secondaryColor;
+        column-gap: $gutter;
+        clear: right;
+	}
+}

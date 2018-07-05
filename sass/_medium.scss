@@ -19,8 +19,21 @@ header{
 main{
     max-width: 1600px;
     margin: 0 auto;
-    figure{
+    figure.temple{
         width: 50%;
         float: right;
     }
+    article{
+		margin: 80px 0 0 $gutter;
+    }
+    
+    article.multicol{
+		column-count: 2;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-rule: 1px solid $secondaryColor;
+		-webkit-column-rule: 1px solid $secondaryColor;
+        column-gap: $gutter;
+        clear: right;
+	}
 }
